@@ -29,12 +29,18 @@
 			.is_mb {
 				display: inherit;
 			}
+			.is_pc {
+				display: none;
+			}
 		}
 
 		@include breakpoint(small) {
 			padding: _size(section-spacing-small);
 			.is_mb {
 				display: inherit;
+			}
+			.is_pc {
+				display: none;
 			}
 		}
 	}

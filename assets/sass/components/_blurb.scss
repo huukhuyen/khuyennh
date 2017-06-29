@@ -11,22 +11,28 @@
 			font-size: 0.8em;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 		}
-
 		h3 {
 			font-size: 0.7em;
 		}
-
 		p {
 			text-align: justify;
 			font-size: 0.9em;
 		}
 	}
-
 	.weather {
 		h2 {
 			font-weight: normal;
 			text-transform: capitalize;
 			// color: _palette(accent);
 			text-align: center;
+		}
+	}
+	.instagramEmbed {
+		h2 {
+			font-size: 0.8em;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+		}
+		h3 {
+			font-size: 0.7em;
 		}
 	}

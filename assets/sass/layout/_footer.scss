@@ -8,6 +8,10 @@
 
 	#footer {
 		text-align: center;
+		h2 {
+			font-size: 0.8em;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+		}
 		.icons {
 			color: _palette(fg-light);
 		}
@@ -20,4 +24,27 @@
 			letter-spacing: _font(kerning-heading);
 			text-transform: uppercase;
 		}
+	}
+
+	.footerEnd {
+		position: relative;
+		border-top: 1px solid _palette(accent);
+		background: _palette(bg);
+		#toTop {
+			cursor: pointer;
+			top: -30px;
+			left: calc(50% - 15px);
+			position: absolute;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid _palette(accent);
+		}
+		h3 {
+			font-style: italic;
+			text-transform: none;
+			font-weight: normal;
+			font-size: 0.8em;
+			margin: (_size(element-margin) * 0.2) 0;
+		}
+		text-align: center;
 	}

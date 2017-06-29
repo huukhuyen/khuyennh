@@ -133,4 +133,12 @@
 			};
 		$(".socialShare").shareButtons(localSite, n)
 	});
+	// Back to top
+    $("#toTop").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
 })(jQuery);
