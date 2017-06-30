@@ -6,6 +6,7 @@
 
 /* Post */
 	.breadcrumb {
+		padding-left: 0;
 		&:after {
 			content: "";
 			clear: both;

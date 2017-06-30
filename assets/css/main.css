@@ -1117,7 +1117,12 @@ hr {
 
 .blurb p {
   text-align: justify;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  margin-bottom: 0.5em; }
+
+.blurb .note {
+  color: #1BADA1;
+  font-style: italic; }
 
 .weather h2 {
   font-weight: normal;
@@ -1723,29 +1728,30 @@ dl {
     margin-left: 2em; }
 
 /* Post */
-.breadcrumb:after {
-  content: "";
-  clear: both;
-  display: block;
-  height: 0;
-  visibility: hidden; }
-
-.breadcrumb li {
-  list-style: none;
-  float: left;
-  position: relative; }
-  .breadcrumb li:last-child a {
-    color: #1BADA1;
-    border: none; }
-  .breadcrumb li:not(:first-child) {
-    padding-left: 40px; }
-    .breadcrumb li:not(:first-child):after {
-      font-weight: normal;
-      font-family: "FontAwesome";
-      content: "\f105";
-      position: absolute;
-      left: 16px;
-      top: 3%; }
+.breadcrumb {
+  padding-left: 0; }
+  .breadcrumb:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden; }
+  .breadcrumb li {
+    list-style: none;
+    float: left;
+    position: relative; }
+    .breadcrumb li:last-child a {
+      color: #1BADA1;
+      border: none; }
+    .breadcrumb li:not(:first-child) {
+      padding-left: 40px; }
+      .breadcrumb li:not(:first-child):after {
+        font-weight: normal;
+        font-family: "FontAwesome";
+        content: "\f105";
+        position: absolute;
+        left: 16px;
+        top: 3%; }
 
 .post {
   padding: 2em 2em 0.1em 2em ;
@@ -2320,7 +2326,7 @@ body {
   max-width: 100%;
   opacity: 1;
   padding: 3em;
-  width: 90em; }
+  width: 85em; }
   body.is-menu-visible #wrapper {
     opacity: 0.15; }
   @media screen and (max-width: 1680px) {
@@ -2355,8 +2361,8 @@ body {
 /* Sidebar */
 #sidebar {
   margin-left: 2em;
-  min-width: 22em;
-  width: 22em; }
+  min-width: 20em;
+  width: 20em; }
   #sidebar > * {
     border-top: solid 1px rgba(160, 160, 160, 0.3);
     margin: 2em 0 0 0;
@@ -2400,7 +2406,7 @@ body {
       margin-left: -0.25em;
       width: 4.5em; }
   #intro header h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 900; }
   #intro header p {
     font-size: 0.8em; }

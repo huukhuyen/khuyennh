@@ -17,6 +17,11 @@
 		p {
 			text-align: justify;
 			font-size: 0.9em;
+			margin-bottom: 0.5em;
+		}
+		.note {
+			color: _palette(accent);
+			font-style: italic;
 		}
 	}
 	.weather {
