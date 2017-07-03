@@ -229,6 +229,7 @@
 			}
 		}
 		.caption {
+			font-family: _font(family);
 			padding-top: _size(section-spacing)/2;
 			color: _palette(fg-light);
 			text-transform: inherit;

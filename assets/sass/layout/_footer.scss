@@ -30,6 +30,7 @@
 		position: relative;
 		border-top: 1px solid _palette(accent);
 		background: _palette(bg);
+		text-align: center;
 		#toTop {
 			cursor: pointer;
 			top: -30px;
@@ -45,6 +46,6 @@
 			font-weight: normal;
 			font-size: 0.8em;
 			margin: (_size(element-margin) * 0.2) 0;
+			font-family: _font(family);
 		}
-		text-align: center;
 	}

@@ -63,6 +63,7 @@
 					font-weight: _font(weight-heading);
 					font-size: 1.5em;
 					text-transform: none;
+					font-family: _font(family);
 				}
 				&:before {
 					content: "";
@@ -123,16 +124,18 @@
 
 		> .image.featured {
 			overflow: hidden;
-
+			text-align: center;
 			img {
-				@include vendor('transition', 'transform #{_duration(slow)} ease-out');
+				transition-duration: 0.5s;
+				width: auto;
+				display: inline-block;
 			}
-
 			&:hover {
 				img {
-					@include vendor('transform', 'scale(1.15)');
+					opacity: 0.8;
 				}
 			}
+
 		}
 
 		.description-post {
